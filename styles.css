@@ -1,0 +1,71 @@
+ /* Custom CSS for styling */
+ .error-icon {
+    display: none;
+    color: red;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.dialog-box {
+    display: none;
+    position: absolute;
+    background-color:#42b9f5;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1;
+  }
+.error-icon:hover + .dialog-box {
+    display: block;
+  }
+h3{
+    text-align: center;
+}
+.custom-box {
+    align-items: center;
+    width: 600px;
+    height: 600px;
+    border-radius: 5px;
+    background-color: aliceblue(0, 0, 9, 0.7);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+              rgba(0, 0,0, 0.22) 0px 15px 12px;
+    margin: auto;
+    margin-top: 155px;
+    border:1px solid rgba(25,25,255,0.228);
+}
+
+label {
+    font-weight: bold;
+}
+
+/* Styling the modal */
+.modal-dialog-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Custom class for the modal */
+.modal-custom {
+    width: 700px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Center the content inside the modal */
+.modal-content {
+    padding: 25px; /* Padding inside the modal */
+    text-align: center;
+}
+
+/* Center the close button in the modal header */
+.modal-header {
+    justify-content: center; /* Center the content */
+}
+
+/* Center the close button */
+.modal-header .close {
+    position: static;
+    margin: auto;
+}
